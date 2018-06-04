@@ -1,0 +1,49 @@
+body{
+	background-color: black;
+	width: 800px;
+}
+
+h1{
+	color: white;
+	padding-left: 400px;
+	padding-top: 275px;
+	padding-bottom:0;
+}
+
+body h3{
+	text-decoration: underline;
+	color: white;
+	text-align: center;
+	padding-top: 0px;
+	padding-left: 400px;
+}
+
+body h3 a{
+	color: white;
+}
+
+main{
+	width: 600px;
+	height: 350px;
+}
+
+body  p{
+	color: white;
+	padding-left: 470px;
+	padding-top: 170px;
+	
+}
+
+body p a{
+	color: white;
+}
+
+video{
+	padding-top: 250px;
+	padding-left: 250px;
+}
+
+footer p{
+	color: white;
+	padding-left: 420px;
+}
