@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+
+	background: black url("../images/madeposter.jpg") repeat fixed left;
+}
+
+body {
+	font-family: Times New Roman, Georgia, serif;
+    font-size: 100%;
+	width: 800px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.95;
+	background-color: floralwhite;
+}
+
+
+header {
+
+	background: url (../images/made.jpg);
+}
+
+header h3{
+	text-align: center;
+}
+
+
+header img {
+	float: left;
+	height: 300px;
+	width: 800px;
+}
+
+
+
+#nav_menu ul{
+	position: relative;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+#nav_menu ul li{
+	float: left;
+	width: 50%;
+
+}
+
+
+#nav_menu ul li a{
+	border-radius: 20px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: white;
+	background-color: #31683C;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+main article img{
+	
+	height: 100px;
+	width: 100px;
+	float: center;
+}
+
+figcaption{
+	list-style-type: none;
+	padding-left: 8em;
+}
+
+
+main section{
+	width: 525px;
+	float: left;
+}
+
+main section h3{
+	margin-top: .25em;
+	margin-bottom: .25em;
+}
+
+
+aside{
+	width: 155px; 
+	float: right;
+}
+
+aside h2{
+	margin-top: .25em;
+	margin-bottom: .25em;
+}
+
+aside h3{
+	margin-top: .25em;
+	margin-bottom: .25em;
+	padding-top: 1em;
+}
+
+aside img{
+	margin-bottom: 1em;
+}
+
+
+main h1{
+	font-size: 150%;
+	color: darkslategrey;
+}
+
+main h2 {
+	font-size: 130%;
+	color: darkslategrey;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+	margin-left: 1em;
+}
+
+main h3{
+	font-size: 105%;
+	padding-bottom: 0.25em;
+	
+}
+
+header h2 {
+	font-size: 170%;
+	color: darkslategrey;
+	padding-top: 0.5em;
+	padding-bottom: 0.25;
+	
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	padding-bottom: 0.25em;
+}
+
+
+aside h2{
+	color: darkslategrey;
+}
+
+aside h3{
+	color: darkcyan;
+}
+
+main p {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+}
+
+
+footer p {
+	float: center;
+	color: white;
+	text-align: center;
+	border: 3px solid darkcyan;
+	background-color: darkcyan;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+footer{
+	clear: both;
+}
