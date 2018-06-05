@@ -1,0 +1,370 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	background: dimgray;
+	
+}
+
+body{
+	width: 90%;
+	max-width: 900px;
+	border-top: 2px solid #ff5d5d;
+	background: white;
+	margin: 0 auto;
+}
+
+header{
+	
+	border-bottom: 2px solid #ff5d5d;
+	color: #381a5e;
+	text-align: center;
+	width: 100%;
+
+}
+
+header img{
+	width: 100%;
+	max-width: 300px;
+	float: none;
+
+}
+
+main{
+	width: 59.375%;
+	padding: 15px 1.5625%;
+
+}
+
+section{
+	float: left;
+	width: 100%;
+	padding-left: 2em;
+	margin: 0;
+	font-size: 14px;
+}
+
+
+section p{
+	padding-bottom: 1em;
+	font-size: 18px;
+}
+
+section p.follow{
+	font-weight: bold;
+}
+
+section ol{
+	padding-left: 1em;
+}
+
+section ol li{
+	padding-bottom: .85em;
+}
+
+section.being{
+	padding-left: 3em;
+}
+
+section.being li{
+	padding-bottom: 1em;
+}
+
+h2{
+	padding-bottom: 2em;
+}
+
+img.transition{
+	
+	transition: 2s;
+}
+
+img.transition:hover{
+	transform: rotateX(180deg);
+	transform-origin: left;
+}
+
+h3{
+	padding-top: .5em;
+	padding-bottom: 1em;
+}
+
+section img{
+	padding-bottom: 1em;
+}
+
+section img.bowing{
+	padding-bottom: .5em;
+}
+
+section img.thanks{
+	width: 80%;
+	height: 80%;
+	padding-left: 4em;
+	padding-top: 3em;
+}
+
+section img.animation{
+	width: 60%;
+	height: auto;
+	padding-top: 5em;
+	padding-left: 8em;
+	animation: moveright 2s ease-in-out 2s infinite alternate;
+}
+
+section img.social{
+	width: 60%;
+}
+
+section.members ul{
+	padding-left: 1em;
+	padding-bottom: 1em;
+    list-style-image: url('../images/heart.png');
+
+}
+
+section.members li{
+	padding-bottom: .5em;
+}
+
+section.members h2{
+	font-size: 30px;
+}
+
+section ul{
+	padding-bottom: 1em;
+}
+
+section ul li.social_media{
+	display: none;
+}
+
+@keyframes moveright{
+	from{
+		margin-left: -17%;
+	}
+	to{
+		margin-left: 10%;
+	}
+}
+
+form{
+	padding-bottom: 1em;
+	font-size: 14px;
+}
+
+article p{
+	font-size: 18px;
+	padding-bottom: 1em;
+}
+
+fieldset{
+	padding-top: 10em;
+	margin-top: 1em;
+	margin-bottom: 30em;
+	
+}
+
+label{
+	float: left;
+	width: 12em;
+	text-align: right;
+	
+}
+
+legend{
+	font-size: 22px;
+}
+
+aside{
+	float: right;
+	width:30%;
+	padding: 15px;
+
+}
+
+aside li {
+	list-style-type: none;	
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 1em;
+	margin-top: 1em;
+}
+
+
+aside img{
+	width: 70%;
+	height: 70%;
+	padding-left: 2em;
+}
+
+#nav_menu{
+	padding-top: 1em;
+}
+
+#nav_menu  ul{
+	list-style-type: none;	
+	padding-bottom: 1em;	
+	text-align: center;
+	border-bottom: 2px solid #ff5d5d;
+	font-size: 22px;	
+}
+
+#nav_menu ul li{
+	display: inline;
+	padding:  2em;
+}
+
+#nav_menu ul li a{
+	font-weight: bold;
+	color: #ff5d5d;
+	text-decoration: none;
+}
+
+#nav_menu ul li a.current{
+	border: 2px dashed #ff5d5d;
+	padding: 0.2em;
+}
+
+
+#mobile_menu{
+	display: none;
+}
+
+
+#shinee5 {
+	background-image: url("../images/shinee1.jpg");
+	width: 300px;
+	height: 150px;
+}
+
+#shinee5:hover{
+	background-image: url(../images/shinee2.jpg);
+}
+
+table{
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin: 1em;
+	padding: 1em;
+}
+
+
+td{
+	padding: 0.2em, 0.7em;
+	text-align: right;
+	border-left: 1px solid black;
+}
+
+th{
+	text-align: left;
+}
+
+footer{
+	border-top: 1px solid #ff5d5d;
+	clear: both;
+	margin-top: 25em;
+	padding-top: .5em;
+	padding-bottom: .4em;
+	width: 100%;
+}
+
+footer p{
+	text-align: center;
+	font-size: 16px;
+}
+
+@media only screen and (max-width: 900px){
+	#nav_menu ul li a {font-size: .875em; }
+	section h2{font-size: 1.5em;} 
+	aside li a{font-size: 1.125em;}
+}
+
+
+@media only screen and (max-width: 767px){
+	#nav_menu {display: none;}
+	
+	#mobile_menu {display: block;}
+	
+	header, footer p {text-align: center;}
+	
+	header h1{font-size: 1.625em;
+			margin: .4em 0 .25em 0;}
+	
+	header h3{
+		font-size: 1em;
+		margin-left: 0;
+	}
+	
+	header img{float: none;}
+	
+	aside{float: left;}
+	
+	aside img{
+		max-width: 100%;
+	}
+	
+	aside li{
+		font-size: 12px
+	}
+
+	#videoplayer1{
+		max-width: 100%;
+	}
+	
+	#videoplayer2{
+		max-width: 100%;
+	}
+	
+	section img.animation {
+	float: center;
+	padding-left: 2em;
+	max-width: 100%;
+	/*animation: none;*/
+  }
+	
+	#shinee5 {
+		display: none;
+	}
+	
+	section.thanks{
+		max-width: 100%;
+	}
+	
+	section img.members{
+		float: none;
+		max-width: 100%;
+	}
+	
+	section ul li.social_media {
+		display: block;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		padding-left: 2em;	
+	}
+	
+	img.social{
+		display: none;
+	}
+	
+	img.bowing{
+		max-width: 100%;
+	}
+	
+	img.transition{
+		max-width: 100%;
+	}
+	
+	fieldset{
+		max-width: 100%;
+	}
+	
+	fieldset label{
+		text-align: center;
+	}
+	fieldset input{
+		float: none;
+	}
+}
